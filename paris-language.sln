@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParisLanguageWebApi", "Pari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParisLanguageDomain", "ParisLanguageDomain\ParisLanguageDomain.csproj", "{7D723D39-80FC-4893-A513-0C3113BDB68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParisLanguageApplication", "ParisLanguageApplication\ParisLanguageApplication.csproj", "{BF543882-3A94-498A-AF1C-49DBFAFE0F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParisLanguageApplication", "ParisLanguageApplication\ParisLanguageApplication.csproj", "{BF543882-3A94-498A-AF1C-49DBFAFE0F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParisLanguageInfrastructure", "ParisLanguageInfrastructure\ParisLanguageInfrastructure.csproj", "{A4FABF77-6ABE-4588-BB47-BC31F798EAC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParisLanguageInfrastructure", "ParisLanguageInfrastructure\ParisLanguageInfrastructure.csproj", "{A4FABF77-6ABE-4588-BB47-BC31F798EAC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BBF13E66-931E-4EC4-98E8-9D77EA018922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParisLanguageTests", "ParisLanguageTests\ParisLanguageTests.csproj", "{6FF742AC-85D1-4C94-A15C-B158FF31522B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{A4FABF77-6ABE-4588-BB47-BC31F798EAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4FABF77-6ABE-4588-BB47-BC31F798EAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4FABF77-6ABE-4588-BB47-BC31F798EAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF742AC-85D1-4C94-A15C-B158FF31522B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF742AC-85D1-4C94-A15C-B158FF31522B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF742AC-85D1-4C94-A15C-B158FF31522B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF742AC-85D1-4C94-A15C-B158FF31522B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FF742AC-85D1-4C94-A15C-B158FF31522B} = {BBF13E66-931E-4EC4-98E8-9D77EA018922}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32B6361E-2BB5-4BEA-AB07-BE6FB85BEE08}

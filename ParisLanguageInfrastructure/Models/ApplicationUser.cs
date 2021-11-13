@@ -1,11 +1,10 @@
-﻿namespace ParisLanguageInfrastructure.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace ParisLanguageInfrastructure.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
-        public int Id { get; set; }
-        public string Email { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string UserName { get; set; }
     }
 }
